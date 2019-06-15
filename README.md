@@ -3,6 +3,8 @@ Some Programs run on STM32 single chip microcomputer.
 
 P.S. The core source codes are under ./HARDWARE & ./SYSTEM & ./USER, others are libraries. And the programs are Keil projects, program on Keil uvision5 and run on STM32 SCM.
 
+![STM32](https://github.com/Isaac-Deng/stm32-collection/blob/master/STM32.jpg)
+
 1. **GPIOKey**
 
    Function: When you press each of 4 buttons, the buzzer will beep of the lights will blink.
@@ -43,11 +45,11 @@ P.S. The core source codes are under ./HARDWARE & ./SYSTEM & ./USER, others are 
 
     Function: Control motor by motor driver module with PWM wave.
 
-11. UsartOutputAdc
+11. **UsartOutputAdc**
 
     Function: ADC sample and output to usart, so that we can see on PC.
 
-12. VoiceSignalTest
+12. **VoiceSignalTest**
 
     Function: Sample output of ISD-1820 module, which is a module to record audio and play, and output through usart to PC.
 
